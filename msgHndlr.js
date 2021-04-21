@@ -98,7 +98,7 @@ module.exports = msgHandler = async (client, message) => {
     const isBotGroupAdmins = isGroupMsg
       ? groupAdmins.includes(botNumber + "@c.us")
       : false;
-    const ownerNumber = ["+1 (830) 262-2589"]   //Enter your number here
+    const ownerNumber = ["+91 86xxxxxxxx"]   //Enter your number here
     const isOwner = message.fromMe;
     const isBlocked = blockNumber.includes(sender.id);
     const isNsfw = isGroupMsg ? nsfw_.includes(chat.id) : false;
